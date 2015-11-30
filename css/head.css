@@ -1,0 +1,42 @@
+
+/* Header Style */
+.codrops-top {
+	line-height: 24px;
+	font-size: 11px;
+	//background: #fff;
+	//background: rgba(255, 255, 255, 0.8);
+        background: rgba(16, 15, 15, 0.8);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+        //margin-left: -7px;
+       // margin-top: -5px;
+}
+
+.codrops-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #FCFCFC;
+	display: inline-block;
+        text-decoration: none;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.6);
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
